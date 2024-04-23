@@ -3,7 +3,7 @@
 	"package": "net.miky.explosionknockbackmod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ExplosionMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
