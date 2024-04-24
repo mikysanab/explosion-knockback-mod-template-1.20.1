@@ -23,7 +23,7 @@
 		"explosion-knockback-mod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.10",
+		"fabricloader": ">=0.15.07",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
