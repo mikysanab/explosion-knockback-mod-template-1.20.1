@@ -13,8 +13,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArgs;
 import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
-import java.util.Map;
-
 @Mixin(Explosion.class)
 public abstract class ExplosionMixin {
     @Shadow @Final private float power;
