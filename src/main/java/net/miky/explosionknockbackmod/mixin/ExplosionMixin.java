@@ -30,7 +30,7 @@ public abstract class ExplosionMixin {
             if (isGhastBall) {
                 power_increment *= 4.5f;
             }
-            double rand = (Math.random() * (1.5f)) + 1.5f; //between 3 and 1.5
+            double rand = 3; //(Math.random() * (1.5f)) + 1.5f; //between 3 and 1.5
             double a = power_increment * adx * rand;
             double b = power_increment * ady * rand / 3.2f;
             double c = power_increment * adz * rand;
